@@ -28,7 +28,7 @@ PRODUCT_DEVICE := olives
 PRODUCT_NAME := lineage_olives
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 8 Series
+PRODUCT_MODEL := Redmi 8
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 

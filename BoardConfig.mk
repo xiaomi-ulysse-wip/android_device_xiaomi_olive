@@ -13,7 +13,7 @@ DEVICE_PATH := device/xiaomi/olives
 BUILD_BROKEN_DUP_RULES := true
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := olive,olivelite,olivewood,olives,privet
+TARGET_OTA_ASSERT_DEVICE := olive,olives
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
