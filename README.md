@@ -1,6 +1,6 @@
 Copyright (C) 2021 - The LineageOS Project
 
-  Device tree for Xiaomi Redmi 8 Series (olives)
+  Device tree for Xiaomi Redmi 8 (olive)
   ==============
  
   The Xiaomi Redmi 8 (codenamed "Olive") is an 

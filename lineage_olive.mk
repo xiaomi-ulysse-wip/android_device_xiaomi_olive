@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from olives device
-$(call inherit-product, device/xiaomi/olives/device.mk)
+# Inherit from olive device
+$(call inherit-product, device/xiaomi/olive/device.mk)
 
 # Some build flags
 TARGET_BOOT_ANIMATION_RES := 720
@@ -24,8 +24,8 @@ IS_PHONE := true
 WITH_GAPPS := false
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := olives
-PRODUCT_NAME := lineage_olives
+PRODUCT_DEVICE := olive
+PRODUCT_NAME := lineage_olive
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8

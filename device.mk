@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_olives \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_olive \
     android.hardware.biometrics.fingerprint@2.2
 
 # Input
@@ -51,7 +51,7 @@ include $(LOCAL_PATH)/properties.mk
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    init.olives.rc
+    init.olive.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \

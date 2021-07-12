@@ -7,13 +7,13 @@
 # Inherit from common sdm439-common
 include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/olives
+DEVICE_PATH := device/xiaomi/olive
 
 # Broken dup rules
 BUILD_BROKEN_DUP_RULES := true
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := olive,olives
+TARGET_OTA_ASSERT_DEVICE := olive,olive
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
